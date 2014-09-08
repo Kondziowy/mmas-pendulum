@@ -1,0 +1,7 @@
+set term png
+set mxtics 2
+set mytics 2
+set grid xtics ytics mxtics mytics
+set xlabel "Iteration"
+plot "../rower.dat" using 1:2 with linespoints title "Improvement (best/first)"
+

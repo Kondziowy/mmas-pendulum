@@ -1,0 +1,25 @@
+MMAS(Min-Max Ant System) Algorithm for reverse pendulum problem in Python
+
+Authors:
+
+Konrad Brodzik <konrad.brodzik@gmail.com>
+Michal Morozik <michalgood@gmail.com
+
+License:
+
+BSD
+
+Requirements:
+
+Python 2.6 and pygame
+
+Windows:
+
+after you install Python, change the path in run.bat to reflect your python version and run this script
+
+Linux:
+
+simply run ./simulation.py
+
+For plotting improvement, force values and population averages, first run the simulation, then execute
+graphs.sh in the gnuplot directory.
